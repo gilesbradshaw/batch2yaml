@@ -1,0 +1,17 @@
+name: 'batch2yaml'
+description: 'convert batch to yaml or back'
+inputs:
+  direction:
+    description: 'either yml or xml'
+    required: true
+    default: 'yml'
+  path:
+    description: 'path of directory to convert'
+    required: true
+    default: '.data'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node20'
+  main: 'index.js'
