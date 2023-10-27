@@ -1,7 +1,7 @@
 name: 'batch2yaml'
 description: 'convert batch to yaml or back'
 inputs:
-  direction:
+  action:
     description: 'either yml or xml'
     required: true
     default: 'yml'
